@@ -1,0 +1,13 @@
+{
+  "name": "SFP - ACE Compatibility",
+  "prefix": "sfp_ace_compat",
+  "version": "1.0.0",
+  "author": "Anrop",
+  "files": [
+    "mod.cpp"
+  ],
+  "keyname": "sfp_ace_compat",
+  "reuse_private_key": true,
+  "signame": "sfp_ace_compat",
+  "sigversion": 3
+}
