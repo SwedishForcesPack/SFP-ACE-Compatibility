@@ -1,5 +1,4 @@
-class CfgVehicles
-{
+class CfgVehicles {
     class Car_F;
     class Tank_F;
 
@@ -25,5 +24,17 @@ class CfgVehicles
 
     class sfp_tgb16_rws: Car_F {
         ACE_refuel_fuelCapacity = 94;
+    };
+
+    class sfp_tgb40_base;
+    class sfp_tgb40_fuel : sfp_tgb40_base {
+        transportFuel = 0;
+        ace_refuel_fuelCargo = 60000;
+    };
+
+    class sfp_tgb40_ammobox;
+    class sfp_tgb40_fuelcontainer : sfp_tgb40_ammobox {
+        transportFuel = 0;
+        ACE_refuel_fuelCargo = 60000;
     };
 };
