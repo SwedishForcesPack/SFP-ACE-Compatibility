@@ -10,8 +10,7 @@ class CfgVehicles {
     };
 
     class sfp_tgb13_ksp58;
-    class sfp_tgb1314 : sfp_tgb13_ksp58
-    {
+    class sfp_tgb1314 : sfp_tgb13_ksp58 {
         ACE_medical_medicClass = 1;
     };
 };

@@ -1,5 +1,4 @@
-class CfgVehicles
-{
+class CfgVehicles {
     class ACE_Explosives_Place;
 
     class sfp_ace_sprdeg46 : ACE_Explosives_Place {

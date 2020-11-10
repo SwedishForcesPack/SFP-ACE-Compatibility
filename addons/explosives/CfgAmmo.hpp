@@ -1,5 +1,4 @@
-class CfgAmmo
-{
+class CfgAmmo {
     class ClaymoreDirectionalMine_Remote_Ammo;
     class MineBase;
     class PipeBombBase;
