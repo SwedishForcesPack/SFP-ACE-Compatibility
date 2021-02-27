@@ -1,5 +1,4 @@
-class CfgAmmo
-{   
+class CfgAmmo {   
     class GrenadeHand;
     class sfp_FlashShell: GrenadeHand {
         ace_grenades_flashbang = 1;

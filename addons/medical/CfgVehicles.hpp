@@ -1,7 +1,7 @@
 class CfgVehicles {
-	class sfp_hkp16;
+    class sfp_hkp16;
     class sfp_hkp16_medevac : sfp_hkp16 {
-    	ACE_medical_medicClass = 1;
+        ACE_medical_medicClass = 1;
     };
 
     class sfp_patgb203;
