@@ -4,6 +4,7 @@ class CfgPatches {
         addonRootClass = "Swedish_Forces_Pack";
         requiredAddons[] = {"ace_dragging", "Swedish_Forces_Pack", "sfp_ammocrates"};
         requiredVersion = 0.1;
+        skipWhenMissingDependencies = 1;
         units[] = {};
         weapons[] = {};
     };
