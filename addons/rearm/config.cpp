@@ -3,6 +3,7 @@ class CfgPatches {
         author = "Swedish Forces Pack";
         addonRootClass = "Swedish_Forces_Pack";
         requiredAddons[] = {"ace_rearm", "Swedish_Forces_Pack", "sfp_tgb40"};
+        skipWhenMissingDependencies = 1;
         requiredVersion = 0.1;
         units[] = {};
         weapons[] = {};

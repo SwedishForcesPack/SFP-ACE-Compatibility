@@ -4,6 +4,7 @@ class CfgPatches {
         addonRootClass = "Swedish_Forces_Pack";
         requiredAddons[] = {"ace_explosives", "Swedish_Forces_Pack", "sfp_weapons_mines", "sfp_weapons_sprdeg46"};
         requiredVersion = 0.1;
+        skipWhenMissingDependencies = 1;
         units[] = {};
         weapons[] = {};
     };
